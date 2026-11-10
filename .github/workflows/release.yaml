@@ -1,0 +1,10 @@
+name: Bundle Maven Lib Release
+
+on: [workflow_dispatch]
+
+jobs:
+  call-workflow:
+    permissions:
+      contents: write
+      packages: read
+    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-lib-release.yaml@cbc0db833d2d0584b3b0e3b7ed4fd27867b3f6ed # main

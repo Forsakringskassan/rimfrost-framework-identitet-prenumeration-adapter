@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-framework-identitet-prenumeration-adapter.
 
+## 0.0.2 (2026-11-12)
+
+### Bug Fixes
+
+-  Add support for ignoring unknown json properties ([0f70e](https://github.com/Forsakringskassan/rimfrost-framework-identitet-prenumeration-adapter/commit/0f70e69471f2965) Lars Persson)  
+
 ## 0.0.1 (2026-11-11)
 
 ### Bug Fixes

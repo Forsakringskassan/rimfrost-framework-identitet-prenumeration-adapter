@@ -40,6 +40,7 @@ public class IdentitetPrenumerationAdapter
    {
       ClientConfig clientConfig = new ClientConfig();
       clientConfig.connectorProvider(new Apache5ConnectorProvider());
+      clientConfig.register(AdapterObjectMapperProvider.class);
       this.client = JerseyClientBuilder.createClient(clientConfig);
       this.prenumerationClient = WebResourceFactory.newResource(
             PrenumerationControllerApi.class,
